@@ -1,18 +1,9 @@
-
 # OSX
 #
 .DS_Store
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
-opencv2.framework  
-opencv2.framework/
 # Xcode
 #
-build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -27,20 +18,36 @@ xcuserdata
 DerivedData
 *.hmap
 *.ipa
-*.xcuserstate
+gradle
 project.xcworkspace
-      
 
-# Android/IntelliJ
+# Android/IJ
 #
-build/
 .idea
 .gradle
 local.properties
+build/
+
+# node.js
+#
+node_modules
+npm-debug.log
+
+
+# webstorm
+#
 *.iml
 
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
-      
+# unfinished documents
+#
+cn-doc.md
+
+# experimental code
+#
+experimental/
+
+/lib/
+/flow-typed/
+
+# VS Code
+.vscode/
